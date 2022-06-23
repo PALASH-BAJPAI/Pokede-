@@ -4,13 +4,13 @@ import Footer from './Footer'
 
 const Contact = () =>{
     return (
-        <>
-        <Header/>
-        <div className="about-body">
-            Contact
+        <div className="contact-div">
+            <Header/>
+            <div className="contact-body">
+                Contact
+            </div>
+            <Footer/>
         </div>
-        <Footer/>
-        </>
     );
 }
 

@@ -51,11 +51,30 @@
 }
 
 
+/* Footer */
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    height:20px;
+    width:calc(100vw-30px);
+    background-color:#ffd521;
+    margin-top:92vh;
+    padding:10px;
+    font-size:14px;
+}
+.footer-text{
+    padding:auto 20px ;
+}
+.footer-right{
+    padding-right: 30px;
+}
 
 /* Home */
-.home-body{
-    margin-top:60px;
+.home-div{
+    height: 100vh;
+    overflow: hidden;
 }
+
 
 
 
@@ -67,6 +86,7 @@
 
 
 /* Contact */
-.contact-body{
-    margin-top:60px;
+.contact-div{
+    height: 100vh;
+    overflow: hidden;
 }

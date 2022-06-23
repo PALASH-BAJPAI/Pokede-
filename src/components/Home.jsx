@@ -4,13 +4,13 @@ import Footer from './Footer'
 
 const Home = () =>{
     return (
-        <>
-        <Header/>
-        <div className="about-body">
-            Home
+        <div className="home-div">
+            <Header/>
+            <div className="home-body">
+                Home
+            </div>
+            <Footer/>
         </div>
-        <Footer/>
-        </>
     );
 }
 
