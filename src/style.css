@@ -58,7 +58,7 @@
     height:20px;
     width:calc(100vw-30px);
     background-color:#ffd521;
-    margin-top:92vh;
+    margin-top:10vh;
     padding:10px;
     font-size:14px;
 }
@@ -79,14 +79,75 @@
 
 
 /* About */
-.about-body{
-    margin-top:60px;
+.about-div{
+    background: #ff9090;
+    width:100%;
 }
-
+.about-title{
+    margin-top:60px;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(46, 3, 3);
+    text-align:center;
+    padding-top:40px;
+}
+.about-title-2{
+    margin:50px auto;
+    font-size:40px;
+    font-weight:bold;
+    color:rgb(46, 3, 3);
+    text-align:center;
+    padding-top:40px;
+}
+.about-body{
+    background: #ff9090;
+    padding-top:40px;
+}
+.about-content{
+    margin:10px auto;
+    padding:50px 100px;
+    background:#ffd521;
+    width:50%;
+    font-size:22px;
+    border:5px solid red;  
+}
+.about-cards{
+    width:80%;
+    margin:auto;
+}
 
 
 /* Contact */
 .contact-div{
     height: 100vh;
     overflow: hidden;
+}
+
+
+/* Card */
+.card-header{
+    background: white;
+    width:300px;
+    padding-top:20px;
+    border:3px solid red;
+    border-radius:12px;
+    margin:20px;
+}
+.card-header:hover{
+    background: #ffd521;
+    transform: scale(1.1);
+}
+
+.card-title{
+    background:#ffd521;
+    padding:10px;
+    border-end-end-radius:12px;
+    border-end-start-radius:12px;
+    text-align: center;
+    font-size:18px;
+    font-family: sans-serif;
+}
+.card-title:hover{
+    background: rgb(246, 52, 52);
+    font-weight: bold;
 }
