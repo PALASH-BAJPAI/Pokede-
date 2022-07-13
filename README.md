@@ -2,7 +2,7 @@
 # [PokedeX](https://pokedex649.netlify.app/)
 
 <p align="center">
-  <img src="https://api.netlify.com/api/v1/badges/bc438b2e-9f12-4bbe-987e-d36fcef20a2f/deploy-status">
+  <img src="https://api.netlify.com/api/v1/badges/985fc59f-696c-49b8-b433-461eb716f315/deploy-status">
 </p>
 
 
